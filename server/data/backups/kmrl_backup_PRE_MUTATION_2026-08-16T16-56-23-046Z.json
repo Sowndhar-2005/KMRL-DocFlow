@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "filename": "kmrl_backup_PRE_MUTATION_2026-08-16T16-56-23-046Z.json",
+    "filepath": "D:\\Project\\Acadexa_Teacher_Courses_Fixed\\server\\data\\backups\\kmrl_backup_PRE_MUTATION_2026-08-16T16-56-23-046Z.json",
+    "createdAt": "2026-08-16T16:56:23.046Z",
+    "label": "PRE_MUTATION",
+    "checksum": "78b7613daf2936da3eb42db038c225cbdb2fc54e772cc76e4f8fe8d3ec319fe9",
+    "documentsCount": 1,
+    "sizeBytes": 718
+  },
+  "data": {
+    "documents": [
+      {
+        "id": "DOC-2025-2001",
+        "title": "Snapshot Backup Test Document",
+        "type": "Safety Directive",
+        "dept": "Safety & Operations",
+        "priority": "P1",
+        "status": "Under Review",
+        "date": "2025-02-14",
+        "deadline": "2025-02-21",
+        "daysLeft": 7,
+        "amount": "₹5,00,000",
+        "sanctionRef": "KMRL/SNAP/01",
+        "issuingAuth": "Safety Cell",
+        "assignee": "Shri. Ramesh Menon",
+        "workflowStep": 1,
+        "language": "English",
+        "executiveSummary": "Snapshot testing payload.",
+        "complianceRisk": "Medium",
+        "createdAt": "2026-08-16T16:56:22.980Z"
+      }
+    ],
+    "departments": [],
+    "auditLogs": [],
+    "slaEscalations": []
+  }
+}
