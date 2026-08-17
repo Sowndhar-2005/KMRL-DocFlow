@@ -14,7 +14,7 @@
 
 Kochi Metro Rail Limited (KMRL) operates Kerala’s premier urban rapid transit network spanning **25 stations along Line 1 (Aluva ⇄ Tripunithura)**, the upcoming **Pink Line (Phase 2 to Infopark)**, and **15 feeder jetties of the Kochi Water Metro**. 
 
-On a daily basis, the organization ingests hundreds of multi-format, bilingual documents—ranging from urgent **CMRS (Commissioner of Metro Railway Safety) Track Geometry Directives** and **Tamil/English Government Orders (GOs)** to complex multi-crore civil tenders, rolling stock warranty claims, and statutory RTI requests.
+On a daily basis, the organization ingests hundreds of multi-format, bilingual documents—ranging from urgent **CMRS (Commissioner of Metro Railway Safety) Track Geometry Directives** and **Malayalam/English Government Orders (GOs)** to complex multi-crore civil tenders, rolling stock warranty claims, and statutory RTI requests.
 
 Under legacy operational workflows, manual document sorting, inter-departmental physical routing, and approval collation took an average of **4.2 hours per document**, introducing critical risks of delayed safety compliances, redundant review of duplicate circulars, and departmental bottlenecks.
 
@@ -23,7 +23,7 @@ Under legacy operational workflows, manual document sorting, inter-departmental 
 ## 🧭 Operational Context, Technical Mandate & Delivered Impact
 
 ### 1. The Operational Landscape & Real-World Context
-Kochi Metro Rail Limited (KMRL) oversees high-density elevated rail operations across 25 stations on Line 1 (Aluva ⇄ Tripunithura), the upcoming Pink Line (Phase 2 to Infopark), and the world's largest integrated electric water metro network spanning 15 coastal feeder jetties. The administrative backbone handles an unrelenting daily influx of multi-format, bilingual documents across six specialized departments (Safety & Quality, Operations & Signaling, Rolling Stock & Traction, Civil Infrastructure, Finance & Procurement, and Water Metro Operations). Operational documents range from urgent time-sensitive directives from the **Commissioner of Metro Railway Safety (CMRS)** requiring same-day field execution, to bilingual **Tamil/English Government Orders (GOs)** regarding inter-state procurement and land acquisitions. 
+Kochi Metro Rail Limited (KMRL) oversees high-density elevated rail operations across 25 stations on Line 1 (Aluva ⇄ Tripunithura), the upcoming Pink Line (Phase 2 to Infopark), and the world's largest integrated electric water metro network spanning 15 coastal feeder jetties. The administrative backbone handles an unrelenting daily influx of multi-format, bilingual documents across six specialized departments (Safety & Quality, Operations & Signaling, Rolling Stock & Traction, Civil Infrastructure, Finance & Procurement, and Water Metro Operations). Operational documents range from urgent time-sensitive directives from the **Commissioner of Metro Railway Safety (CMRS)** requiring same-day field execution, to bilingual **Malayalam/English Government Orders (GOs)** regarding inter-state procurement and land acquisitions. 
 
 In this multi-modal transit environment, legacy manual document administration created severe processing friction: each document required an average of **4.2 hours** to be manually read, cataloged, physically stamped, and routed across departmental silos, leaving critical safety alerts at risk of transit lag and subjecting officers to duplicate circular fatigue.
 
@@ -31,13 +31,13 @@ In this multi-modal transit environment, legacy manual document administration c
 To solve these institutional bottlenecks, the engineering mandate required architecting a resilient, automated document intelligence platform tailored to metro railway governance with the following target requirements:
 - **Instantaneous Triage:** Compress end-to-end document intake, optical parsing, and department routing from hours to under 30 seconds.
 - **Zero-Lag Safety Dispatch:** Ensure urgent CMRS and safety-critical directives bypass administrative queues and immediately alert designated engineers and station controllers.
-- **Bilingual & Multi-Format Intelligence:** Automatically recognize native Tamil Unicode script (`\u0B80-\u0BFF`) alongside English technical documentation, extracting key entities such as government sanction numbers, issuing authorities, and financial allocations.
+- **Bilingual & Multi-Format Intelligence:** Automatically recognize native Malayalam Unicode script (`\u0D00-\u0D7F`) alongside English technical documentation, extracting key entities such as government sanction numbers, issuing authorities, and financial allocations.
 - **Deduplication & Revision Diffing:** Mathematically detect duplicate or revised Standard Operating Procedures (SOPs) to save clerical review time.
 - **Cryptographic Non-Repudiation & SLA Assurance:** Guarantee 100% tamper-evident audit trails via cryptographic digital seals and automate multi-tiered escalations to comply with the Metro Railways Act.
 
 ### 3. Engineering Interventions & Technical Implementation
 To realize this mandate, the **KMRL DocFlow** platform was engineered from the ground up with a resilient, full-stack architecture:
-- **Bilingual OCR Studio & Named Entity Extraction:** Implemented a dual-language optical recognition pipeline capable of identifying Tamil script (`\u0B80-\u0BFF`) and automatically synthesizing English administrative briefs while extracting sanction codes, budget amounts (₹ Crores), and statutory compliance deadlines.
+- **Bilingual OCR Studio & Named Entity Extraction:** Implemented a dual-language optical recognition pipeline capable of identifying Malayalam script (`\u0D00-\u0D7F`) and automatically synthesizing English administrative briefs while extracting sanction codes, budget amounts (₹ Crores), and statutory compliance deadlines.
 - **3-Tier Contextual Summarizer & Audio Telemetry:** Built a tiered NLP summarization engine delivering a 30-second executive summary for executive leadership, an itemized task-and-assignee matrix for Heads of Department, and hands-free voice dispatches via the Web Speech API for live station masters and train operators.
 - **5-Stage Role-Based Workflow & SHA-256 HMAC Digital Seal:** Designed a connected 5-stage progression stepper (*Ingested ➔ OCR ➔ AI Triaged ➔ Dept Review ➔ Sealed*) secured by role-based authorization and cryptographic HMAC SHA-256 digital seals for non-repudiation.
 - **Semantic Clause-Level DeepSearch (RAG):** Constructed a tokenized in-memory inverted index and clause-level Retrieval-Augmented Generation (RAG) engine delivering sub-2ms search with verbatim citations.
@@ -50,7 +50,7 @@ The implementation of KMRL DocFlow transformed document handling across all metr
 - **93% Reduction in Triage Latency:** Slashed average document processing time from **4.2 hours down to 18 seconds**.
 - **Real-Time CMRS Safety Compliance:** Achieved instantaneous, zero-delay automated routing for Priority-1 safety and track geometry directives.
 - **Elimination of Duplicate Review Overhead:** Saved an estimated **4.8 man-hours per duplicate document**, recovering over 30% of administrative staff capacity.
-- **Instant Bilingual Translation:** Automated translation and metadata extraction of Tamil government orders in **under 2 seconds**, replacing a 1-2 day manual translation cycle.
+- **Instant Bilingual Translation:** Automated translation and metadata extraction of Malayalam government orders in **under 2 seconds**, replacing a 1-2 day manual translation cycle.
 - **100% Cryptographic Non-Repudiation:** Provided legally binding, tamper-evident audit trails with instant digital seal verification.
 
 ---
@@ -62,7 +62,7 @@ The implementation of KMRL DocFlow transformed document handling across all metr
 
 - **Authentic Railway Track Canvas:** An interactive SVG layout of Kochi Metro Line 1 (Aluva Terminal ⇄ Tripunithura) and the Kochi Water Metro channel.
 - **Live Train Patrol & Signaling:** Simulates real-time train movement with 3-aspect LED signaling (Line Clear, Speed Caution, P1 Safety Alert).
-- **Tamil Station Signboards:** All station nodes feature dual-language typography (e.g., *Aluva / ஆலுவா*, *Muttom Depot / முட்டம் பணிமனை*, *Tripunithura / திருப்புனித்துறை*).
+- **Malayalam Station Signboards:** All station nodes feature dual-language typography (e.g., *Aluva / ആലുവ*, *Muttom Depot / മുട്ടം ഡിപ്പോ & യാർഡ്*, *Tripunithura / തൃപ്പൂണിത്തുറ*).
 - **Live Ingestion Matrix:** Priority-sorted operational document queue linked with instant 1-click AI brief cards.
 
 ---
@@ -70,7 +70,7 @@ The implementation of KMRL DocFlow transformed document handling across all metr
 ### 2. Bilingual OCR Studio & Knowledge Graph Extractor
 ![OCR Ingestion Studio](docs/images/02_ocr_studio.png)
 
-- **Tamil Unicode & English NLP Parser:** Identifies Tamil script (`\u0B80-\u0BFF`) and performs instant automated translation into standardized English administrative briefs.
+- **Malayalam Unicode & English NLP Parser:** Identifies Malayalam script (`\u0D00-\u0D7F`) and performs instant automated translation into standardized English administrative briefs.
 - **Named Entity Recognition (NER):** Automatically extracts Government Sanction References, Financial Amounts (e.g., ₹18.50 Crores), Issuing Authorities, and Statutory Deadlines.
 - **Visual Bounding Boxes:** Displays live bounding-box confidence scores across scanned pages to guarantee optical character fidelity.
 
@@ -129,7 +129,7 @@ The implementation of KMRL DocFlow transformed document handling across all metr
 
 - **Interactive 1-Click Test Scenarios:**
   - *Scenario 1:* Critical CMRS Track Siding Safety Directive (P1 Alert).
-  - *Scenario 2:* Tamil Administrative Sanction for Pink Line Land Acquisition.
+  - *Scenario 2:* Malayalam Administrative Sanction for Pink Line Land Acquisition.
   - *Scenario 3:* Multi-Crore Water Metro LTO Battery Global Tender.
   - *Scenario 4:* Duplicate Station Cleaning Circular with TF-IDF match.
 - **Instant Demo Database Reset:** Restores seed data to pristine initial conditions with one click.
@@ -143,7 +143,7 @@ The implementation of KMRL DocFlow transformed document handling across all metr
 | **Frontend UI** | React 18, Vite, Lucide React, Modern CSS3 | Responsive design system (Mobile, Tablet, Laptop, 4K Desktop) with clean railway aesthetics |
 | **Backend Engine** | Node.js, Express 4.x, Multer | RESTful API, multipart stream ingestion, enterprise error handling, and structured logging |
 | **Database & ACID Engine** | Relational-Document Storage Engine, JSON DB | ACID transaction support, Inverted Index, Composite Index, and automated point-in-time recovery (PITR) |
-| **AI & NLP Intelligence** | TF-IDF Vectorizer, Cosine Similarity, Regex NLP | Tamil/English heuristic classifier, Named Entity Extraction, and extractive RAG answer generation |
+| **AI & NLP Intelligence** | TF-IDF Vectorizer, Cosine Similarity, Regex NLP | Malayalam/English heuristic classifier, Named Entity Extraction, and extractive RAG answer generation |
 | **Security & Auditing** | Crypto HMAC SHA-256 | Tamper-proof cryptographic signatures, immutable audit trail, and role-based access control (RBAC) |
 
 ---
@@ -155,7 +155,7 @@ The implementation of KMRL DocFlow transformed document handling across all metr
 | **Average Document Triage Latency** | 4.2 Hours / document | **18 Seconds** / document | **⚡ 93% Latency Reduction** |
 | **P1 Safety Directives Routing Time** | 2 to 6 Hours | **Instant (Zero Delays)** | **🛡️ 100% Real-Time Compliance** |
 | **Duplicate Circular Review Waste** | ~34.8% Staff Time | **Eliminated via TF-IDF Match** | **💰 4.8 Man-Hours Saved / Duplicate** |
-| **Bilingual Tamil/English Translation** | Manual Translation (1-2 Days) | **Automated Ingestion (< 2 sec)** | **🌐 Instant Cross-State Sanctioning** |
+| **Bilingual Malayalam/English Translation** | Manual Translation (1-2 Days) | **Automated Ingestion (< 2 sec)** | **🌐 Instant Cross-State Sanctioning** |
 | **Audit Non-Repudiation** | Physical Ink Stamp / Scan | **Cryptographic SHA-256 HMAC** | **🔒 100% Tamper-Proof Audit Trail** |
 
 ---
@@ -196,7 +196,7 @@ Navigate to **`http://localhost:5173/`** to interact with the live command cente
 
 ## 🧪 Automated Testing & Verification
 
-The backend includes a comprehensive automated test suite covering API contracts, ACID database integrity, TF-IDF deduplication, and Tamil script detection.
+The backend includes a comprehensive automated test suite covering API contracts, ACID database integrity, TF-IDF deduplication, and Malayalam script detection.
 
 ```bash
 # Run the complete test suite (31 automated unit and integration tests)
@@ -206,7 +206,7 @@ node --test server/tests/deduplication.test.js server/tests/documentService.test
 ### Test Coverage Summary:
 - ✅ **API Integration Tests (8 tests):** Health checks, stats discovery, search endpoints, and approval mutations.
 - ✅ **Database & ACID Tests (9 tests):** Schema validator, composite indexing, inverted full-text search, atomic commits, rollback isolation, and point-in-time recovery.
-- ✅ **AI & Triage Tests (10 tests):** CMRS P1 classification, Tamil Unicode detection, entity extraction, and SHA-256 HMAC digital signatures.
+- ✅ **AI & Triage Tests (10 tests):** CMRS P1 classification, Malayalam Unicode detection, entity extraction, and SHA-256 HMAC digital signatures.
 - ✅ **Deduplication Engine Tests (4 tests):** TF-IDF cosine similarity against identical, paraphrased, and disjoint texts.
 
 ---
@@ -236,7 +236,7 @@ KMRL-DocFlow-SIH25080/
 │   ├── repositories/           # Data access layer for documents & audit logs
 │   ├── routes/                 # Express router declarations
 │   ├── services/               # Core business & AI logic
-│   │   ├── aiService.js            # Tamil NLP, TF-IDF, summaries & digital seal
+│   │   ├── aiService.js            # Malayalam NLP, TF-IDF, summaries & digital seal
 │   │   ├── auditService.js         # Audit log append & compliance formatting
 │   │   └── documentService.js      # Document lifecycle orchestration
 │   └── tests/                  # 31 automated test specs

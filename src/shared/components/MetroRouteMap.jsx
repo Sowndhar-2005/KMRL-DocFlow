@@ -2,20 +2,20 @@ import React, { useState, useEffect } from 'react';
 import { Train, Anchor, AlertTriangle, ShieldCheck, MapPin, Radio, Sparkles } from 'lucide-react';
 
 const STATIONS = [
-  { id: "ALUVA", name: "Aluva Terminal", tamil: "ஆலுவா", type: "metro", x: 70, y: 55, alert: null, signal: 'green' },
-  { id: "KALAMASSERY", name: "Kalamassery", tamil: "களமசேரி", type: "metro", x: 210, y: 55, alert: "Pier 412 TSR Notice (P1)", signal: 'red' },
-  { id: "MUTTOM", name: "Muttom Depot & Yard", tamil: "முட்டம் பணிமனை", type: "depot", x: 350, y: 55, alert: "TS-07 Bogie Warranty", signal: 'amber' },
-  { id: "EDAPPALLY", name: "Edappally Junction", tamil: "இடப்பள்ளி", type: "metro", x: 490, y: 55, alert: "Station Cleaning SOP", signal: 'green' },
-  { id: "JLN_STADIUM", name: "JLN Stadium (Pink Line)", tamil: "ஜே.எல்.என் அரங்கம்", type: "junction", x: 630, y: 55, alert: "Phase 2 Land Sanction", signal: 'amber' },
-  { id: "MAHARAJAS", name: "Maharaja's College", tamil: "மகாராஜாஸ்", type: "metro", x: 770, y: 55, alert: "Farebox AFC Audit", signal: 'green' },
-  { id: "TRIPUNITHURA", name: "Tripunithura Terminal", tamil: "திருப்புனித்துறை", type: "metro", x: 910, y: 55, alert: "RTI Tree Audit", signal: 'red' },
+  { id: "ALUVA", name: "Aluva Terminal", malayalam: "ആലുവ", type: "metro", x: 70, y: 55, alert: null, signal: 'green' },
+  { id: "KALAMASSERY", name: "Kalamassery", malayalam: "കളമശ്ശേരി", type: "metro", x: 210, y: 55, alert: "Pier 412 TSR Notice (P1)", signal: 'red' },
+  { id: "MUTTOM", name: "Muttom Depot & Yard", malayalam: "മുട്ടം ഡിപ്പോ & യാർഡ്", type: "depot", x: 350, y: 55, alert: "TS-07 Bogie Warranty", signal: 'amber' },
+  { id: "EDAPPALLY", name: "Edappally Junction", malayalam: "ഇടപ്പള്ളി", type: "metro", x: 490, y: 55, alert: "Station Cleaning SOP", signal: 'green' },
+  { id: "JLN_STADIUM", name: "JLN Stadium (Pink Line)", malayalam: "ജെ.എൽ.എൻ സ്റ്റേഡിയം", type: "junction", x: 630, y: 55, alert: "Phase 2 Land Sanction", signal: 'amber' },
+  { id: "MAHARAJAS", name: "Maharaja's College", malayalam: "മഹാരാജാസ് കോളേജ്", type: "metro", x: 770, y: 55, alert: "Farebox AFC Audit", signal: 'green' },
+  { id: "TRIPUNITHURA", name: "Tripunithura Terminal", malayalam: "തൃപ്പൂണിത്തുറ", type: "metro", x: 910, y: 55, alert: "RTI Tree Audit", signal: 'red' },
 ];
 
 const WATER_JETTIES = [
-  { id: "FORT_KOCHI", name: "Fort Kochi Jetty", tamil: "ஃபோர்ட் கொச்சி", x: 130, y: 135, alert: "Battery Temp Warning" },
-  { id: "BOLGATTY", name: "Bolgatty Island", tamil: "போல்ஹட்டி தீவு", x: 370, y: 135, alert: "33kV Feeder Sanction" },
-  { id: "VYTTILA", name: "Vyttila Hub Jetty", tamil: "வைட்டிலா முனையம்", x: 610, y: 135, alert: "LTO Battery Tender" },
-  { id: "KAKKANAD", name: "Kakkanad Jetty", tamil: "காக்கநாடு", x: 850, y: 135, alert: null },
+  { id: "FORT_KOCHI", name: "Fort Kochi Jetty", malayalam: "ഫോർട്ട് കൊച്ചി", x: 130, y: 135, alert: "Battery Temp Warning" },
+  { id: "BOLGATTY", name: "Bolgatty Island", malayalam: "ബോൾഗാട്ടി ദ്വീപ്", x: 370, y: 135, alert: "33kV Feeder Sanction" },
+  { id: "VYTTILA", name: "Vyttila Hub Jetty", malayalam: "വൈറ്റില ഹബ്", x: 610, y: 135, alert: "LTO Battery Tender" },
+  { id: "KAKKANAD", name: "Kakkanad Jetty", malayalam: "കാക്കനാട്", x: 850, y: 135, alert: null },
 ];
 
 export function MetroRouteMap({ onSelectDoc, selectedDocId, documents = [] }) {
@@ -215,7 +215,7 @@ export function MetroRouteMap({ onSelectDoc, selectedDocId, documents = [] }) {
               <path d="M 0,2 L -4,-3 L 4,-3 L 0,2" stroke="#94a3b8" strokeWidth="1" fill="none" />
             </g>
 
-            {/* ================= 7. STATIONS, SIGNALS & TAMIL LABELS ================= */}
+            {/* ================= 7. STATIONS, SIGNALS & MALAYALAM LABELS ================= */}
             {STATIONS.map((stn) => {
               const hasAlert = Boolean(stn.alert);
               const isP1 = stn.signal === 'red';
@@ -251,7 +251,7 @@ export function MetroRouteMap({ onSelectDoc, selectedDocId, documents = [] }) {
                     fill={hasAlert ? '#dc2626' : stn.type === 'depot' ? '#d97706' : '#059669'}
                   />
 
-                  {/* Station English & Tamil Names */}
+                  {/* Station English & Malayalam Names */}
                   <text
                     x={stn.x}
                     y="13"
@@ -272,7 +272,7 @@ export function MetroRouteMap({ onSelectDoc, selectedDocId, documents = [] }) {
                     textAnchor="middle"
                     fontFamily="'Plus Jakarta Sans', sans-serif"
                   >
-                    {stn.tamil}
+                    {stn.malayalam}
                   </text>
 
                   {/* Urgent Document Alert Tag */}
@@ -305,7 +305,7 @@ export function MetroRouteMap({ onSelectDoc, selectedDocId, documents = [] }) {
               );
             })}
 
-            {/* ================= 8. WATER METRO JETTIES WITH TAMIL ================= */}
+            {/* ================= 8. WATER METRO JETTIES WITH MALAYALAM ================= */}
             {WATER_JETTIES.map((jty) => {
               const hasAlert = Boolean(jty.alert);
               return (
@@ -314,7 +314,7 @@ export function MetroRouteMap({ onSelectDoc, selectedDocId, documents = [] }) {
                   <rect x={jty.x - 6} y="130" width="12" height="10" rx="2" fill="#0284c7" stroke="#ffffff" strokeWidth="1" />
                   <circle cx={jty.x} cy={135} r="2.5" fill="#ffffff" />
                   
-                  {/* Jetty Title (English + Tamil) */}
+                  {/* Jetty Title (English + Malayalam) */}
                   <text
                     x={jty.x}
                     y="154"
@@ -324,7 +324,7 @@ export function MetroRouteMap({ onSelectDoc, selectedDocId, documents = [] }) {
                     textAnchor="middle"
                     fontFamily="'Plus Jakarta Sans', sans-serif"
                   >
-                    ⚓ {jty.name} ({jty.tamil})
+                    ⚓ {jty.name} ({jty.malayalam})
                   </text>
 
                   {hasAlert && (

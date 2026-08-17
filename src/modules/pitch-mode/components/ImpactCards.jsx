@@ -12,7 +12,7 @@ export function ImpactCards() {
           1. The KMRL Operational Problem
         </h4>
         <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>
-          KMRL operates Mainline Metro, Muttom Depot, and Water Metro. 1000s of multi-format memos, Tamil Government Orders, and safety notices arrive daily. Officers spend 3-4 hours reading 50-page reports, leading to delayed decisions and missed statutory deadlines.
+          KMRL operates Mainline Metro, Muttom Depot, and Water Metro. 1000s of multi-format memos, Malayalam Government Orders, and safety notices arrive daily. Officers spend 3-4 hours reading 50-page reports, leading to delayed decisions and missed statutory deadlines.
         </p>
       </div>
 
@@ -24,7 +24,7 @@ export function ImpactCards() {
           2. Our AI-Driven Innovation
         </h4>
         <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>
-          Bilingual OCR + 3-tier adaptive LLM summarization (Executive, Action Matrix, Compliance Risk). Automatic department routing, instant Tamil-to-English translation, and semantic DeepSearch across all historical archives.
+          Bilingual OCR + 3-tier adaptive LLM summarization (Executive, Action Matrix, Compliance Risk). Automatic department routing, instant Malayalam-to-English translation, and semantic DeepSearch across all historical archives.
         </p>
       </div>
 

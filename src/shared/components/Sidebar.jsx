@@ -36,7 +36,7 @@ export function Sidebar({
     {
       id: 'ocr',
       label: 'OCR Studio',
-      sublabel: 'English & Tamil Ingestion',
+      sublabel: 'English & Malayalam Ingestion',
       icon: ScanText,
       badge: 'AI Vision',
       badgeType: 'emerald'

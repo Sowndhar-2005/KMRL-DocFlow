@@ -168,10 +168,14 @@ export class AIService {
   }
 
   /**
-   * Check if text contains Tamil unicode range (\u0B80-\u0BFF)
+   * Check if text contains Malayalam unicode range (\u0D00-\u0D7F)
    */
+  isMalayalamText(text) {
+    return /[\u0D00-\u0D7F]/.test(text || "");
+  }
+
   isTamilText(text) {
-    return /[\u0B80-\u0BFF]/.test(text || "");
+    return this.isMalayalamText(text);
   }
 }
 

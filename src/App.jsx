@@ -23,7 +23,7 @@ export default function App() {
   const [searchDeptFilter, setSearchDeptFilter] = useState("All");
   const [filterPriority, setFilterPriority] = useState("All");
   const [isScanning, setIsScanning] = useState(false);
-  const [isTamilView, setIsTamilView] = useState(false);
+  const [isMalayalamView, setIsMalayalamView] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [selectedSealDoc, setSelectedSealDoc] = useState(null);
   const [toastMessage, setToastMessage] = useState(null);
@@ -157,9 +157,9 @@ export default function App() {
     if (preset === 'cmrs') {
       title = "CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding";
       rawText = "COMMISSIONER OF METRO RAILWAY SAFETY (SOUTHERN CIRCLE)\nRef: CMRS/GEO/2025/904\nSub: Mandatory emergency track gauge & cross-level geometry laser verification on Vadakkekotta crossover siding switch 12B before commissioning high-speed freight run. Section 27 compliance required within 7 days.";
-    } else if (preset === 'tamil') {
+    } else if (preset === 'malayalam' || preset === 'tamil') {
       title = "GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction";
-      rawText = "கொச்சி வாட்டர் மெட்ரோ திட்டத்தின் கீழ் போல்காட்டி மற்றும் ஃபோர்ட் கொச்சி ஜெட்டிகளில் 33kV மின்பாதை அமைப்பதற்கும் சோலார் சார்ஜிங் உள்கட்டமைப்பு உருவாக்குவதற்கும் ₹2.15 கோடி நிர்வாக அனுமதி வழங்கப்படுகிறது. இந்த தொகையை மின்வாரியத்திற்கு உடனடியாக மாற்ற உத்தரவிடப்படுகிறது.";
+      rawText = "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.";
     } else if (preset === 'duplicate') {
       title = "KMRL/OPS/CLN/CIRC-18 — Station Sanitization & Chemical Mop Protocols (Duplicate Submission)";
       rawText = "CIRCULAR NO: KMRL/OPS/CLN/CIRC-18\nDeep cleaning shall be carried out at all 25 stations between 01:00 hrs and 04:30 hrs. Escalator comb plates must be inspected and sanitized daily. Bio-waste disposal to adhere to Pollution Control Board guidelines.";
@@ -289,15 +289,15 @@ export default function App() {
             <OcrIngestionPage
               selectedDoc={selectedDoc}
               isScanning={isScanning}
-              isTamilView={isTamilView}
-              setIsTamilView={setIsTamilView}
+              isMalayalamView={isMalayalamView}
+              setIsMalayalamView={setIsMalayalamView}
               onFileUpload={handleFileUpload}
               onTextUpload={handleTextUpload}
               uploadTitle={uploadTitle}
               setUploadTitle={setUploadTitle}
               uploadText={uploadText}
               setUploadText={setUploadText}
-              onSimulateTamil={() => handleTextUpload('tamil')}
+              onSimulateMalayalam={() => handleTextUpload('malayalam')}
               onProceedToSummary={() => setActiveTab('summary')}
             />
           )}
@@ -366,7 +366,7 @@ export default function App() {
                 setActiveTab('ocr');
               }}
               onRunScenario2={() => {
-                handleTextUpload('tamil');
+                handleTextUpload('malayalam');
                 setActiveTab('ocr');
               }}
               onRunScenario3={() => {

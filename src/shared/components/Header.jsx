@@ -19,7 +19,7 @@ export function Header({
 
   const TAB_NAMES = {
     dashboard: 'Command Center & Ingestion Matrix',
-    ocr: 'OCR Ingestion Studio (Tamil & English)',
+    ocr: 'OCR Ingestion Studio (Malayalam & English)',
     summary: 'AI Executive Brief & Action Extractor',
     workflow: 'Role-Based Approval & Rerouting Matrix',
     search: 'Semantic DeepSearch & RAG Engine',

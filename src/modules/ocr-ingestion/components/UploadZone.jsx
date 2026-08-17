@@ -8,7 +8,7 @@ export function UploadZone({
   setUploadTitle,
   uploadText,
   setUploadText,
-  onSimulateTamil
+  onSimulateMalayalam
 }) {
   const fileInputRef = useRef(null);
 
@@ -52,9 +52,9 @@ export function UploadZone({
           <button
             className="btn-secondary"
             style={{ padding: '0.25rem 0.6rem', fontSize: '0.72rem' }}
-            onClick={onSimulateTamil}
+            onClick={onSimulateMalayalam}
           >
-            Load Tamil Order Excerpt
+            Load Malayalam Order Excerpt
           </button>
         </div>
 
@@ -77,7 +77,7 @@ export function UploadZone({
         />
         <textarea
           rows={3}
-          placeholder="Paste document text, CMRS clause, or Tamil GO excerpt..."
+          placeholder="Paste document text, CMRS clause, or Malayalam GO excerpt..."
           value={uploadText}
           onChange={(e) => setUploadText(e.target.value)}
           style={{

@@ -1,13 +1,577 @@
 {
   "documents": [
     {
+      "id": "DOC-2025-5183",
+      "createdAt": "2026-08-17T05:16:56.461Z",
+      "title": "GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction",
+      "type": "Government Order",
+      "dept": "Water Metro Division",
+      "priority": "P2",
+      "status": "Under Review",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹2.15",
+      "sanctionRef": "KMRL/GEN/6461",
+      "issuingAuth": "Water Metro Division Directorate",
+      "assignee": "Smt. Anjali Nair (Water Metro Fleet Lead)",
+      "workflowStep": 3,
+      "language": "Malayalam",
+      "similarity": 0,
+      "duplicateOf": null,
+      "malayalamOriginal": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "malayalamTranslation": "Automated English Translation: കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "tamilOriginal": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "tamilTranslation": "Automated English Translation: കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "executiveSummary": "Comprehensive intelligence briefing for GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction. Document mandates high-priority operational compliance under Water Metro Division. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for GO(RT) No. 112/2025/TRANS — Kochi Water Metro...",
+          "assignee": "Water Metro Division Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Operational (Standard departmental SLA compliance timeline)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക....",
+      "extractedEntities": {
+        "Sanctioned Amount": "₹2.15"
+      },
+      "filePath": null
+    },
+    {
+      "id": "DOC-2025-5124",
+      "createdAt": "2026-08-17T05:16:55.803Z",
+      "title": "GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction",
+      "type": "Government Order",
+      "dept": "Water Metro Division",
+      "priority": "P2",
+      "status": "Under Review",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹2.15",
+      "sanctionRef": "KMRL/GEN/5803",
+      "issuingAuth": "Water Metro Division Directorate",
+      "assignee": "Smt. Anjali Nair (Water Metro Fleet Lead)",
+      "workflowStep": 3,
+      "language": "Malayalam",
+      "similarity": 0,
+      "duplicateOf": null,
+      "malayalamOriginal": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "malayalamTranslation": "Automated English Translation: കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "tamilOriginal": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "tamilTranslation": "Automated English Translation: കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "executiveSummary": "Comprehensive intelligence briefing for GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction. Document mandates high-priority operational compliance under Water Metro Division. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for GO(RT) No. 112/2025/TRANS — Kochi Water Metro...",
+          "assignee": "Water Metro Division Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Operational (Standard departmental SLA compliance timeline)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക....",
+      "extractedEntities": {
+        "Sanctioned Amount": "₹2.15"
+      },
+      "filePath": null
+    },
+    {
+      "id": "DOC-2025-8456",
+      "createdAt": "2026-08-17T05:16:54.849Z",
+      "title": "GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction",
+      "type": "Government Order",
+      "dept": "Water Metro Division",
+      "priority": "P2",
+      "status": "Under Review",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹2.15",
+      "sanctionRef": "KMRL/GEN/4849",
+      "issuingAuth": "Water Metro Division Directorate",
+      "assignee": "Smt. Anjali Nair (Water Metro Fleet Lead)",
+      "workflowStep": 3,
+      "language": "Malayalam",
+      "similarity": 0,
+      "duplicateOf": null,
+      "malayalamOriginal": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "malayalamTranslation": "Automated English Translation: കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "tamilOriginal": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "tamilTranslation": "Automated English Translation: കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "executiveSummary": "Comprehensive intelligence briefing for GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction. Document mandates high-priority operational compliance under Water Metro Division. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for GO(RT) No. 112/2025/TRANS — Kochi Water Metro...",
+          "assignee": "Water Metro Division Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Operational (Standard departmental SLA compliance timeline)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക....",
+      "extractedEntities": {
+        "Sanctioned Amount": "₹2.15"
+      },
+      "filePath": null
+    },
+    {
+      "id": "DOC-2025-1224",
+      "createdAt": "2026-08-17T05:16:53.101Z",
+      "title": "GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction",
+      "type": "Government Order",
+      "dept": "Water Metro Division",
+      "priority": "P2",
+      "status": "Under Review",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹2.15",
+      "sanctionRef": "KMRL/GEN/3101",
+      "issuingAuth": "Water Metro Division Directorate",
+      "assignee": "Smt. Anjali Nair (Water Metro Fleet Lead)",
+      "workflowStep": 3,
+      "language": "Malayalam",
+      "similarity": 0,
+      "duplicateOf": null,
+      "malayalamOriginal": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "malayalamTranslation": "Automated English Translation: കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "tamilOriginal": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "tamilTranslation": "Automated English Translation: കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക.",
+      "executiveSummary": "Comprehensive intelligence briefing for GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction. Document mandates high-priority operational compliance under Water Metro Division. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for GO(RT) No. 112/2025/TRANS — Kochi Water Metro...",
+          "assignee": "Water Metro Division Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Operational (Standard departmental SLA compliance timeline)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "കൊച്ചി വാട്ടർ മെട്രോ പദ്ധതിക്ക് കീഴിൽ ബോൾഗാട്ടി, ഫോർട്ട് കൊച്ചി ജെട്ടികളിൽ 33kV ഫീഡർ ലൈനും സോളാർ ചാർജിംഗ് ഇൻഫ്രാസ്ട്രക്ചറും സ്ഥാപിക്കുന്നതിന് ₹2.15 കോടിയുടെ ഭരണാനുമതി നൽകുന്നു. തുക ഉടൻ കെഎസ്ഇബിക്ക് കൈമാറുക....",
+      "extractedEntities": {
+        "Sanctioned Amount": "₹2.15"
+      },
+      "filePath": null
+    },
+    {
+      "id": "DOC-2025-6142",
+      "createdAt": "2026-08-17T05:14:43.672Z",
+      "title": "01_CMRS_Track_Safety_Directive_P1",
+      "type": "Safety Directive",
+      "dept": "Safety & Operations",
+      "priority": "P1",
+      "status": "Under Review",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹10,00,000",
+      "sanctionRef": "KMRL/GEN/3671",
+      "issuingAuth": "Safety & Operations Directorate",
+      "assignee": "Shri. Ramesh Menon (Chief Safety Officer)",
+      "workflowStep": 3,
+      "language": "English",
+      "similarity": 0,
+      "duplicateOf": null,
+      "malayalamOriginal": null,
+      "malayalamTranslation": null,
+      "tamilOriginal": null,
+      "tamilTranslation": null,
+      "executiveSummary": "Comprehensive intelligence briefing for 01_CMRS_Track_Safety_Directive_P1. Document mandates high-priority operational compliance under Safety & Operations. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for 01_CMRS_Track_Safety_Directive_P1...",
+          "assignee": "Safety & Operations Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Critical (Immediate statutory or safety non-compliance hazard)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "Extracted text from 01_CMRS_Track_Safety_Directive_P1.pdf. Document uploaded to KMRL central intelligence repository for automated classification and compliance validation....",
+      "extractedEntities": {},
+      "filePath": "/uploads/KMRL-1786943683664-01_CMRS_Track_Safety_Directive.pdf"
+    },
+    {
+      "id": "DOC-2025-5443",
+      "createdAt": "2026-08-17T04:52:44.086Z",
+      "title": "CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding",
+      "type": "Safety Directive",
+      "dept": "Water Metro Division",
+      "priority": "P1",
+      "status": "Approved",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹10,00,000",
+      "sanctionRef": "Ref: CMRS/GEO/2025/904",
+      "issuingAuth": "Safety & Operations Directorate",
+      "assignee": "Smt. Anjali Nair",
+      "workflowStep": 5,
+      "language": "English",
+      "similarity": 0,
+      "duplicateOf": null,
+      "tamilOriginal": null,
+      "tamilTranslation": null,
+      "executiveSummary": "Comprehensive intelligence briefing for CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding. Document mandates high-priority operational compliance under Safety & Operations. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for CMRS Track Geometry & Clearance Notice — Phas...",
+          "assignee": "Safety & Operations Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Critical (Immediate statutory or safety non-compliance hazard)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "COMMISSIONER OF METRO RAILWAY SAFETY (SOUTHERN CIRCLE)\r\nRef: CMRS/GEO/2025/904\r\nSub: Mandatory emergency track gauge & cross-level geometry laser verification on Vadakkekotta crossover siding switch 12B before commissioning high-speed freight run. Section 27 compliance required within 7 days....",
+      "extractedEntities": {
+        "Sanction Reference": "Ref: CMRS/GEO/2025/904"
+      },
+      "filePath": null,
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-6DA2573F71980823",
+      "signedAt": "17/8/2026, 10:24:15 am",
+      "updatedAt": "2026-08-17T04:54:15.604Z"
+    },
+    {
+      "id": "DOC-2025-7283",
+      "createdAt": "2026-08-17T04:52:43.259Z",
+      "title": "CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding",
+      "type": "Safety Directive",
+      "dept": "Safety & Operations",
+      "priority": "P1",
+      "status": "Approved",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹10,00,000",
+      "sanctionRef": "Ref: CMRS/GEO/2025/904",
+      "issuingAuth": "Safety & Operations Directorate",
+      "assignee": "Shri. Ramesh Menon (Chief Safety Officer)",
+      "workflowStep": 5,
+      "language": "English",
+      "similarity": 0,
+      "duplicateOf": null,
+      "tamilOriginal": null,
+      "tamilTranslation": null,
+      "executiveSummary": "Comprehensive intelligence briefing for CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding. Document mandates high-priority operational compliance under Safety & Operations. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for CMRS Track Geometry & Clearance Notice — Phas...",
+          "assignee": "Safety & Operations Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Critical (Immediate statutory or safety non-compliance hazard)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "COMMISSIONER OF METRO RAILWAY SAFETY (SOUTHERN CIRCLE)\r\nRef: CMRS/GEO/2025/904\r\nSub: Mandatory emergency track gauge & cross-level geometry laser verification on Vadakkekotta crossover siding switch 12B before commissioning high-speed freight run. Section 27 compliance required within 7 days....",
+      "extractedEntities": {
+        "Sanction Reference": "Ref: CMRS/GEO/2025/904"
+      },
+      "filePath": null,
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-D6AF035C50295665",
+      "signedAt": "17/8/2026, 10:24:05 am",
+      "updatedAt": "2026-08-17T04:54:05.084Z"
+    },
+    {
+      "id": "DOC-2025-6152",
+      "createdAt": "2026-08-17T04:52:42.483Z",
+      "title": "CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding",
+      "type": "Safety Directive",
+      "dept": "Safety & Operations",
+      "priority": "P1",
+      "status": "Approved",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹10,00,000",
+      "sanctionRef": "Ref: CMRS/GEO/2025/904",
+      "issuingAuth": "Safety & Operations Directorate",
+      "assignee": "Shri. Ramesh Menon (Chief Safety Officer)",
+      "workflowStep": 5,
+      "language": "English",
+      "similarity": 0,
+      "duplicateOf": null,
+      "tamilOriginal": null,
+      "tamilTranslation": null,
+      "executiveSummary": "Comprehensive intelligence briefing for CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding. Document mandates high-priority operational compliance under Safety & Operations. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for CMRS Track Geometry & Clearance Notice — Phas...",
+          "assignee": "Safety & Operations Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Critical (Immediate statutory or safety non-compliance hazard)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "COMMISSIONER OF METRO RAILWAY SAFETY (SOUTHERN CIRCLE)\r\nRef: CMRS/GEO/2025/904\r\nSub: Mandatory emergency track gauge & cross-level geometry laser verification on Vadakkekotta crossover siding switch 12B before commissioning high-speed freight run. Section 27 compliance required within 7 days....",
+      "extractedEntities": {
+        "Sanction Reference": "Ref: CMRS/GEO/2025/904"
+      },
+      "filePath": null,
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-18AF1B5A185CFEBA",
+      "signedAt": "17/8/2026, 10:24:06 am",
+      "updatedAt": "2026-08-17T04:54:06.884Z"
+    },
+    {
+      "id": "DOC-2025-6809",
+      "createdAt": "2026-08-17T04:52:41.607Z",
+      "title": "CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding",
+      "type": "Safety Directive",
+      "dept": "Safety & Operations",
+      "priority": "P1",
+      "status": "Approved",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹10,00,000",
+      "sanctionRef": "Ref: CMRS/GEO/2025/904",
+      "issuingAuth": "Safety & Operations Directorate",
+      "assignee": "Shri. Ramesh Menon (Chief Safety Officer)",
+      "workflowStep": 5,
+      "language": "English",
+      "similarity": 0,
+      "duplicateOf": null,
+      "tamilOriginal": null,
+      "tamilTranslation": null,
+      "executiveSummary": "Comprehensive intelligence briefing for CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding. Document mandates high-priority operational compliance under Safety & Operations. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for CMRS Track Geometry & Clearance Notice — Phas...",
+          "assignee": "Safety & Operations Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Critical (Immediate statutory or safety non-compliance hazard)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "COMMISSIONER OF METRO RAILWAY SAFETY (SOUTHERN CIRCLE)\r\nRef: CMRS/GEO/2025/904\r\nSub: Mandatory emergency track gauge & cross-level geometry laser verification on Vadakkekotta crossover siding switch 12B before commissioning high-speed freight run. Section 27 compliance required within 7 days....",
+      "extractedEntities": {
+        "Sanction Reference": "Ref: CMRS/GEO/2025/904"
+      },
+      "filePath": null,
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-0EFDFC1F0B47A558",
+      "signedAt": "17/8/2026, 10:24:09 am",
+      "updatedAt": "2026-08-17T04:54:09.071Z"
+    },
+    {
+      "id": "DOC-2025-8637",
+      "createdAt": "2026-08-17T04:52:40.748Z",
+      "title": "CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding",
+      "type": "Safety Directive",
+      "dept": "Safety & Operations",
+      "priority": "P1",
+      "status": "Approved",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹10,00,000",
+      "sanctionRef": "Ref: CMRS/GEO/2025/904",
+      "issuingAuth": "Safety & Operations Directorate",
+      "assignee": "Shri. Ramesh Menon (Chief Safety Officer)",
+      "workflowStep": 5,
+      "language": "English",
+      "similarity": 0,
+      "duplicateOf": null,
+      "tamilOriginal": null,
+      "tamilTranslation": null,
+      "executiveSummary": "Comprehensive intelligence briefing for CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding. Document mandates high-priority operational compliance under Safety & Operations. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for CMRS Track Geometry & Clearance Notice — Phas...",
+          "assignee": "Safety & Operations Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Critical (Immediate statutory or safety non-compliance hazard)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "COMMISSIONER OF METRO RAILWAY SAFETY (SOUTHERN CIRCLE)\r\nRef: CMRS/GEO/2025/904\r\nSub: Mandatory emergency track gauge & cross-level geometry laser verification on Vadakkekotta crossover siding switch 12B before commissioning high-speed freight run. Section 27 compliance required within 7 days....",
+      "extractedEntities": {
+        "Sanction Reference": "Ref: CMRS/GEO/2025/904"
+      },
+      "filePath": null,
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-A8E3D0EE6B11DD68",
+      "signedAt": "17/8/2026, 10:24:10 am",
+      "updatedAt": "2026-08-17T04:54:10.502Z"
+    },
+    {
+      "id": "DOC-2025-8321",
+      "createdAt": "2026-08-17T04:52:39.593Z",
+      "title": "CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding",
+      "type": "Safety Directive",
+      "dept": "Safety & Operations",
+      "priority": "P1",
+      "status": "Approved",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹10,00,000",
+      "sanctionRef": "Ref: CMRS/GEO/2025/904",
+      "issuingAuth": "Safety & Operations Directorate",
+      "assignee": "Shri. Ramesh Menon (Chief Safety Officer)",
+      "workflowStep": 5,
+      "language": "English",
+      "similarity": 0,
+      "duplicateOf": null,
+      "tamilOriginal": null,
+      "tamilTranslation": null,
+      "executiveSummary": "Comprehensive intelligence briefing for CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding. Document mandates high-priority operational compliance under Safety & Operations. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for CMRS Track Geometry & Clearance Notice — Phas...",
+          "assignee": "Safety & Operations Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Critical (Immediate statutory or safety non-compliance hazard)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "COMMISSIONER OF METRO RAILWAY SAFETY (SOUTHERN CIRCLE)\r\nRef: CMRS/GEO/2025/904\r\nSub: Mandatory emergency track gauge & cross-level geometry laser verification on Vadakkekotta crossover siding switch 12B before commissioning high-speed freight run. Section 27 compliance required within 7 days....",
+      "extractedEntities": {
+        "Sanction Reference": "Ref: CMRS/GEO/2025/904"
+      },
+      "filePath": null,
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-9046D3FAC6CD034B",
+      "signedAt": "17/8/2026, 10:24:11 am",
+      "updatedAt": "2026-08-17T04:54:11.959Z"
+    },
+    {
+      "id": "DOC-2025-5857",
+      "createdAt": "2026-08-17T04:52:31.390Z",
+      "title": "CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding",
+      "type": "Safety Directive",
+      "dept": "Safety & Operations",
+      "priority": "P1",
+      "status": "Approved",
+      "date": "2026-08-17",
+      "deadline": "2026-08-24",
+      "daysLeft": 7,
+      "amount": "₹10,00,000",
+      "sanctionRef": "Ref: CMRS/GEO/2025/904",
+      "issuingAuth": "Safety & Operations Directorate",
+      "assignee": "Shri. Ramesh Menon (Chief Safety Officer)",
+      "workflowStep": 5,
+      "language": "English",
+      "similarity": 0,
+      "duplicateOf": null,
+      "tamilOriginal": null,
+      "tamilTranslation": null,
+      "executiveSummary": "Comprehensive intelligence briefing for CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding. Document mandates high-priority operational compliance under Safety & Operations. Key action directives have been extracted and mapped to relevant HoDs with statutory deadline tracking enabled.",
+      "actionItems": [
+        {
+          "task": "Review operational compliance requirements for CMRS Track Geometry & Clearance Notice — Phas...",
+          "assignee": "Safety & Operations Lead",
+          "status": "In Progress",
+          "due": "Within 3 Days"
+        },
+        {
+          "task": "Verify technical documentation & safety concurrence logs",
+          "assignee": "Section Engineer",
+          "status": "Pending",
+          "due": "Within 7 Days"
+        }
+      ],
+      "complianceRisk": "Critical (Immediate statutory or safety non-compliance hazard)",
+      "ocrConfidence": "99.2%",
+      "ocrSnippet": "COMMISSIONER OF METRO RAILWAY SAFETY (SOUTHERN CIRCLE)\r\nRef: CMRS/GEO/2025/904\r\nSub: Mandatory emergency track gauge & cross-level geometry laser verification on Vadakkekotta crossover siding switch 12B before commissioning high-speed freight run. Section 27 compliance required within 7 days....",
+      "extractedEntities": {
+        "Sanction Reference": "Ref: CMRS/GEO/2025/904"
+      },
+      "filePath": null,
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-12CB6CDE4BF6B735",
+      "signedAt": "17/8/2026, 10:24:12 am",
+      "updatedAt": "2026-08-17T04:54:12.935Z"
+    },
+    {
       "id": "DOC-2025-5460",
       "createdAt": "2026-08-16T17:35:46.298Z",
       "title": "Test Title",
       "type": "Operational Circular",
       "dept": "Water Metro Division",
       "priority": "P3",
-      "status": "Routed",
+      "status": "Approved",
       "date": "2026-08-16",
       "deadline": "2026-08-23",
       "daysLeft": 7,
@@ -15,7 +579,7 @@
       "sanctionRef": "KMRL/GEN/6298",
       "issuingAuth": "Station Operations Directorate",
       "assignee": "Smt. Anjali Nair",
-      "workflowStep": 3,
+      "workflowStep": 5,
       "language": "English",
       "similarity": 0,
       "duplicateOf": null,
@@ -41,7 +605,10 @@
       "ocrSnippet": "Test Text...",
       "extractedEntities": {},
       "filePath": null,
-      "updatedAt": "2026-08-16T17:42:23.012Z"
+      "updatedAt": "2026-08-17T04:51:54.571Z",
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-FA571F3BAD443EB2",
+      "signedAt": "17/8/2026, 10:21:54 am"
     },
     {
       "id": "DOC-2025-8913",
@@ -50,7 +617,7 @@
       "type": "Safety Directive",
       "dept": "Safety & Operations",
       "priority": "P1",
-      "status": "Under Review",
+      "status": "Approved",
       "date": "2026-08-16",
       "deadline": "2026-08-23",
       "daysLeft": 7,
@@ -58,7 +625,7 @@
       "sanctionRef": "Ref: CMRS/GEO/2025/904",
       "issuingAuth": "Safety & Operations Directorate",
       "assignee": "Shri. Ramesh Menon (Chief Safety Officer)",
-      "workflowStep": 3,
+      "workflowStep": 5,
       "language": "English",
       "similarity": 0,
       "duplicateOf": null,
@@ -85,7 +652,11 @@
       "extractedEntities": {
         "Sanction Reference": "Ref: CMRS/GEO/2025/904"
       },
-      "filePath": null
+      "filePath": null,
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-065A0E08D88017A8",
+      "signedAt": "17/8/2026, 10:23:42 am",
+      "updatedAt": "2026-08-17T04:53:42.059Z"
     },
     {
       "id": "DOC-2025-4264",
@@ -94,7 +665,7 @@
       "type": "Government Order",
       "dept": "Water Metro Division",
       "priority": "P2",
-      "status": "Under Review",
+      "status": "Approved",
       "date": "2026-08-16",
       "deadline": "2026-08-23",
       "daysLeft": 7,
@@ -102,7 +673,7 @@
       "sanctionRef": "KMRL/GEN/6383",
       "issuingAuth": "Water Metro Division Directorate",
       "assignee": "Smt. Anjali Nair (Water Metro Fleet Lead)",
-      "workflowStep": 3,
+      "workflowStep": 5,
       "language": "Malayalam",
       "similarity": 0,
       "duplicateOf": null,
@@ -129,7 +700,11 @@
       "extractedEntities": {
         "Sanctioned Amount": "₹2.15"
       },
-      "filePath": null
+      "filePath": null,
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-E8F2B814A4D84A43",
+      "signedAt": "17/8/2026, 10:23:40 am",
+      "updatedAt": "2026-08-17T04:53:40.935Z"
     },
     {
       "id": "DOC-2025-1002",
@@ -137,18 +712,22 @@
       "type": "Operational Circular",
       "dept": "Station Operations",
       "priority": "P3",
-      "status": "Ingested",
+      "status": "Approved",
       "date": "2025-02-15",
       "deadline": "2025-02-28",
       "daysLeft": 13,
       "sanctionRef": "KMRL/OPS/02",
       "issuingAuth": "OCC",
       "assignee": "Station Director",
-      "workflowStep": 1,
+      "workflowStep": 5,
       "language": "English",
       "executiveSummary": "Transactional housekeeping memo.",
       "complianceRisk": "Low",
-      "createdAt": "2026-08-16T16:52:07.351Z"
+      "createdAt": "2026-08-16T16:52:07.351Z",
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-58EE09CF0ED704BF",
+      "signedAt": "17/8/2026, 10:23:39 am",
+      "updatedAt": "2026-08-17T04:53:39.825Z"
     },
     {
       "id": "DOC-2025-0891",
@@ -200,9 +779,9 @@
       },
       "createdAt": "2026-08-16T16:29:22.854Z",
       "signedBy": "Chief Safety Officer",
-      "digitalSignature": "KMRL-SHA256-2033200AFC4F530F",
-      "signedAt": "16/8/2026, 11:43:10 pm",
-      "updatedAt": "2026-08-16T18:13:10.889Z"
+      "digitalSignature": "KMRL-SHA256-87AA42BA5D88A91B",
+      "signedAt": "17/8/2026, 10:52:56 am",
+      "updatedAt": "2026-08-17T05:22:56.679Z"
     },
     {
       "id": "DOC-2025-0742",
@@ -264,7 +843,7 @@
       "type": "Government Order",
       "dept": "Civil & Land Acquisition",
       "priority": "P2",
-      "status": "Under Review",
+      "status": "Approved",
       "date": "2025-02-10",
       "deadline": "2025-03-10",
       "daysLeft": 22,
@@ -272,7 +851,7 @@
       "sanctionRef": "GO-MS-42-TRANS-KERALA",
       "issuingAuth": "Transport (B) Department, Govt of Kerala",
       "assignee": "Adv. Haridas K. (Chief Land Officer)",
-      "workflowStep": 4,
+      "workflowStep": 5,
       "language": "Malayalam",
       "similarity": 0,
       "duplicateOf": null,
@@ -308,7 +887,11 @@
         "Project Phase": "Phase 2 Pink Line (JLN to Infopark)",
         "Escrow Deposit": "₹18.50 Crore"
       },
-      "createdAt": "2026-08-16T16:29:22.855Z"
+      "createdAt": "2026-08-16T16:29:22.855Z",
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-E19A780048E6EBC5",
+      "signedAt": "17/8/2026, 10:23:36 am",
+      "updatedAt": "2026-08-17T04:53:36.180Z"
     },
     {
       "id": "DOC-2025-0550",
@@ -423,7 +1006,7 @@
       "type": "Operational Circular",
       "dept": "Station Operations",
       "priority": "P3",
-      "status": "Ingested",
+      "status": "Approved",
       "date": "2025-02-15",
       "deadline": "2025-02-28",
       "daysLeft": 12,
@@ -431,7 +1014,7 @@
       "sanctionRef": "OPS-CLN-2025-12",
       "issuingAuth": "Operations Control Centre (OCC)",
       "assignee": "Station Director",
-      "workflowStep": 1,
+      "workflowStep": 5,
       "language": "English",
       "similarity": 94,
       "duplicateOf": "DOC-2025-0145",
@@ -458,7 +1041,11 @@
         "Recommendation": "Auto-merge & Archive Duplicate",
         "Est. Storage/Review Saved": "4 Man-hours"
       },
-      "createdAt": "2026-08-16T16:29:22.855Z"
+      "createdAt": "2026-08-16T16:29:22.855Z",
+      "signedBy": "Managing Director (MD)",
+      "digitalSignature": "KMRL-SHA256-173B31248A9BC2B1",
+      "signedAt": "17/8/2026, 10:23:34 am",
+      "updatedAt": "2026-08-17T04:53:34.368Z"
     },
     {
       "id": "DOC-2025-0145",
@@ -502,6 +1089,330 @@
     }
   ],
   "auditLogs": [
+    {
+      "id": "LOG-6689",
+      "timestamp": "2026-08-17T05:22:56.689Z",
+      "docId": "DOC-2025-0891",
+      "userRole": "Chief Safety Officer",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-87AA42BA5D88A91B",
+      "details": "Approved by Chief Safety Officer with cryptographic stamp KMRL-SHA256-87AA42BA5D88A91B"
+    },
+    {
+      "id": "LOG-6464",
+      "timestamp": "2026-08-17T05:16:56.464Z",
+      "docId": "DOC-2025-5183",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-DFCDHL",
+      "details": "Ingested document 'GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction' with priority P2."
+    },
+    {
+      "id": "LOG-5806",
+      "timestamp": "2026-08-17T05:16:55.807Z",
+      "docId": "DOC-2025-5124",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-YAZ1P1",
+      "details": "Ingested document 'GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction' with priority P2."
+    },
+    {
+      "id": "LOG-4852",
+      "timestamp": "2026-08-17T05:16:54.852Z",
+      "docId": "DOC-2025-8456",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-Z1J74M",
+      "details": "Ingested document 'GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction' with priority P2."
+    },
+    {
+      "id": "LOG-3104",
+      "timestamp": "2026-08-17T05:16:53.104Z",
+      "docId": "DOC-2025-1224",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-NH6DKV",
+      "details": "Ingested document 'GO(RT) No. 112/2025/TRANS — Kochi Water Metro Jetty Electrification Sanction' with priority P2."
+    },
+    {
+      "id": "LOG-3678",
+      "timestamp": "2026-08-17T05:14:43.678Z",
+      "docId": "DOC-2025-6142",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-FGJ2HY",
+      "details": "Ingested document '01_CMRS_Track_Safety_Directive_P1' with priority P1."
+    },
+    {
+      "id": "LOG-3821",
+      "timestamp": "2026-08-17T05:03:23.821Z",
+      "docId": "DOC-2025-0891",
+      "userRole": "Chief Safety Officer",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-BFF4E7919964C6CA",
+      "details": "Approved by Chief Safety Officer with cryptographic stamp KMRL-SHA256-BFF4E7919964C6CA"
+    },
+    {
+      "id": "LOG-5607",
+      "timestamp": "2026-08-17T04:54:15.607Z",
+      "docId": "DOC-2025-5443",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-6DA2573F71980823",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-6DA2573F71980823"
+    },
+    {
+      "id": "LOG-2938",
+      "timestamp": "2026-08-17T04:54:12.938Z",
+      "docId": "DOC-2025-5857",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-12CB6CDE4BF6B735",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-12CB6CDE4BF6B735"
+    },
+    {
+      "id": "LOG-1962",
+      "timestamp": "2026-08-17T04:54:11.962Z",
+      "docId": "DOC-2025-8321",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-9046D3FAC6CD034B",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-9046D3FAC6CD034B"
+    },
+    {
+      "id": "LOG-0504",
+      "timestamp": "2026-08-17T04:54:10.504Z",
+      "docId": "DOC-2025-8637",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-A8E3D0EE6B11DD68",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-A8E3D0EE6B11DD68"
+    },
+    {
+      "id": "LOG-9074",
+      "timestamp": "2026-08-17T04:54:09.074Z",
+      "docId": "DOC-2025-6809",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-0EFDFC1F0B47A558",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-0EFDFC1F0B47A558"
+    },
+    {
+      "id": "LOG-6886",
+      "timestamp": "2026-08-17T04:54:06.886Z",
+      "docId": "DOC-2025-6152",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-18AF1B5A185CFEBA",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-18AF1B5A185CFEBA"
+    },
+    {
+      "id": "LOG-5087",
+      "timestamp": "2026-08-17T04:54:05.087Z",
+      "docId": "DOC-2025-7283",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-D6AF035C50295665",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-D6AF035C50295665"
+    },
+    {
+      "id": "LOG-3073",
+      "timestamp": "2026-08-17T04:54:03.073Z",
+      "docId": "DOC-2025-5443",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-83B65A47067D3911",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-83B65A47067D3911"
+    },
+    {
+      "id": "LOG-1940",
+      "timestamp": "2026-08-17T04:53:51.940Z",
+      "docId": "DOC-2025-5443",
+      "userRole": "Escalation Watchtower",
+      "action": "SLA_ESCALATED",
+      "signatureHash": "SLA-ALERT",
+      "details": "Triggered Level 3 (Director Alert) to Managing Director Desk"
+    },
+    {
+      "id": "LOG-0599",
+      "timestamp": "2026-08-17T04:53:50.599Z",
+      "docId": "DOC-2025-5443",
+      "userRole": "Managing Director (MD)",
+      "action": "DOCUMENT_REROUTED",
+      "signatureHash": "ROUTE-UPDATE",
+      "details": "Re-routed to Water Metro Division (Assignee: Smt. Anjali Nair)"
+    },
+    {
+      "id": "LOG-9661",
+      "timestamp": "2026-08-17T04:53:49.661Z",
+      "docId": "DOC-2025-5443",
+      "userRole": "Managing Director (MD)",
+      "action": "DOCUMENT_REROUTED",
+      "signatureHash": "ROUTE-UPDATE",
+      "details": "Re-routed to Water Metro Division (Assignee: Smt. Anjali Nair)"
+    },
+    {
+      "id": "LOG-8507",
+      "timestamp": "2026-08-17T04:53:48.507Z",
+      "docId": "DOC-2025-5443",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-41446CBE8383B1CA",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-41446CBE8383B1CA"
+    },
+    {
+      "id": "LOG-8315",
+      "timestamp": "2026-08-17T04:53:48.315Z",
+      "docId": "DOC-2025-5443",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-5FA871545D39FDC5",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-5FA871545D39FDC5"
+    },
+    {
+      "id": "LOG-7923",
+      "timestamp": "2026-08-17T04:53:47.923Z",
+      "docId": "DOC-2025-5443",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-8B76990E5A5FCB93",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-8B76990E5A5FCB93"
+    },
+    {
+      "id": "LOG-6735",
+      "timestamp": "2026-08-17T04:53:46.735Z",
+      "docId": "DOC-2025-5443",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-D13E7F50E16F15B2",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-D13E7F50E16F15B2"
+    },
+    {
+      "id": "LOG-2062",
+      "timestamp": "2026-08-17T04:53:42.062Z",
+      "docId": "DOC-2025-8913",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-065A0E08D88017A8",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-065A0E08D88017A8"
+    },
+    {
+      "id": "LOG-0937",
+      "timestamp": "2026-08-17T04:53:40.937Z",
+      "docId": "DOC-2025-4264",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-E8F2B814A4D84A43",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-E8F2B814A4D84A43"
+    },
+    {
+      "id": "LOG-9827",
+      "timestamp": "2026-08-17T04:53:39.827Z",
+      "docId": "DOC-2025-1002",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-58EE09CF0ED704BF",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-58EE09CF0ED704BF"
+    },
+    {
+      "id": "LOG-6183",
+      "timestamp": "2026-08-17T04:53:36.183Z",
+      "docId": "DOC-2025-0619",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-E19A780048E6EBC5",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-E19A780048E6EBC5"
+    },
+    {
+      "id": "LOG-4371",
+      "timestamp": "2026-08-17T04:53:34.371Z",
+      "docId": "DOC-2025-0199",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-173B31248A9BC2B1",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-173B31248A9BC2B1"
+    },
+    {
+      "id": "LOG-1731",
+      "timestamp": "2026-08-17T04:53:11.731Z",
+      "docId": "DOC-2025-5443",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-F6A506D1AF0A1401",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-F6A506D1AF0A1401"
+    },
+    {
+      "id": "LOG-4088",
+      "timestamp": "2026-08-17T04:52:44.088Z",
+      "docId": "DOC-2025-5443",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-5PY9WL",
+      "details": "Ingested document 'CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding' with priority P1."
+    },
+    {
+      "id": "LOG-3262",
+      "timestamp": "2026-08-17T04:52:43.262Z",
+      "docId": "DOC-2025-7283",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-3R6FOC",
+      "details": "Ingested document 'CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding' with priority P1."
+    },
+    {
+      "id": "LOG-2485",
+      "timestamp": "2026-08-17T04:52:42.485Z",
+      "docId": "DOC-2025-6152",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-R1EH3L",
+      "details": "Ingested document 'CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding' with priority P1."
+    },
+    {
+      "id": "LOG-1609",
+      "timestamp": "2026-08-17T04:52:41.609Z",
+      "docId": "DOC-2025-6809",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-2JF5GP",
+      "details": "Ingested document 'CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding' with priority P1."
+    },
+    {
+      "id": "LOG-0750",
+      "timestamp": "2026-08-17T04:52:40.750Z",
+      "docId": "DOC-2025-8637",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-MGABF4",
+      "details": "Ingested document 'CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding' with priority P1."
+    },
+    {
+      "id": "LOG-9596",
+      "timestamp": "2026-08-17T04:52:39.596Z",
+      "docId": "DOC-2025-8321",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-UN6EEF",
+      "details": "Ingested document 'CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding' with priority P1."
+    },
+    {
+      "id": "LOG-1393",
+      "timestamp": "2026-08-17T04:52:31.393Z",
+      "docId": "DOC-2025-5857",
+      "userRole": "AI Ingestion Pipeline",
+      "action": "DOCUMENT_INGESTED",
+      "signatureHash": "INGEST-AUTO-AR2SDV",
+      "details": "Ingested document 'CMRS Track Geometry & Clearance Notice — Phase 1B Vadakkekotta Siding' with priority P1."
+    },
+    {
+      "id": "LOG-4576",
+      "timestamp": "2026-08-17T04:51:54.576Z",
+      "docId": "DOC-2025-5460",
+      "userRole": "Managing Director (MD)",
+      "action": "DIGITALLY_APPROVED",
+      "signatureHash": "KMRL-SHA256-FA571F3BAD443EB2",
+      "details": "Approved by Managing Director (MD) with cryptographic stamp KMRL-SHA256-FA571F3BAD443EB2"
+    },
     {
       "id": "LOG-0896",
       "timestamp": "2026-08-16T18:13:10.896Z",
@@ -692,6 +1603,15 @@
     }
   ],
   "slaEscalations": [
+    {
+      "id": "ESC-1938",
+      "sentAt": "2026-08-17T04:53:51.938Z",
+      "status": "Dispatched",
+      "docId": "DOC-2025-5443",
+      "level": "Level 3 (Director Alert)",
+      "alertType": "SMS + Email Dispatch",
+      "recipient": "Managing Director Desk"
+    },
     {
       "id": "ESC-1738",
       "sentAt": "2026-08-16T17:20:31.738Z",

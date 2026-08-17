@@ -24,7 +24,7 @@ export function ScenarioBar({
             <Sparkles size={13} color="#dc2626" /> Scenario 1: CMRS Safety Directive
           </button>
           <button className="btn-secondary" style={{ fontSize: '0.75rem', padding: '0.35rem 0.75rem' }} onClick={onRunScenario2}>
-            <Sparkles size={13} color="#059669" /> Scenario 2: Tamil Land Sanction GO
+            <Sparkles size={13} color="#059669" /> Scenario 2: Malayalam Land Sanction GO
           </button>
           <button className="btn-secondary" style={{ fontSize: '0.75rem', padding: '0.35rem 0.75rem' }} onClick={onRunScenario3}>
             <Sparkles size={13} color="#0284c7" /> Scenario 3: ₹4.2 Cr Battery Tender

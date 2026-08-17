@@ -4,9 +4,11 @@ import { Sparkles } from 'lucide-react';
 export function OcrScannerViewport({
   selectedDoc,
   isScanning,
-  isTamilView,
-  setIsTamilView
+  isMalayalamView,
+  setIsMalayalamView
 }) {
+  const isRegional = selectedDoc.language === 'Malayalam' || selectedDoc.language === 'Tamil';
+
   return (
     <div className="scanner-viewport">
       {isScanning && <div className="scanner-laser"></div>}
@@ -22,9 +24,9 @@ export function OcrScannerViewport({
         <span className="mono" style={{ fontSize: '0.75rem', color: 'var(--rail-steel-900)', fontWeight: 800 }}>
           LIVE OCR STREAM: {selectedDoc.id || 'SCAN-ACTIVE'} (Confidence: {selectedDoc.ocrConfidence || '99.2%'})
         </span>
-        {selectedDoc.language === 'Tamil' && (
+        {isRegional && (
           <span style={{ background: 'var(--signal-amber-bg)', border: '1px solid var(--signal-amber-border)', color: 'var(--signal-amber-text)', fontSize: '0.65rem', fontWeight: 800, padding: '2px 6px', borderRadius: '4px' }}>
-            TAMIL SCRIPT DETECTED
+            MALAYALAM SCRIPT DETECTED
           </span>
         )}
       </div>
@@ -37,9 +39,9 @@ export function OcrScannerViewport({
           whiteSpace: 'pre-wrap',
           fontFamily: 'JetBrains Mono, monospace'
         }}>
-          {selectedDoc.language === 'Tamil' && isTamilView
-            ? selectedDoc.tamilTranslation
-            : selectedDoc.ocrSnippet || selectedDoc.executiveSummary}
+          {isRegional && isMalayalamView
+            ? (selectedDoc.malayalamTranslation || selectedDoc.tamilTranslation)
+            : (selectedDoc.ocrSnippet || selectedDoc.executiveSummary)}
         </pre>
 
         {/* Visual Bounding Boxes */}
@@ -51,7 +53,7 @@ export function OcrScannerViewport({
         </div>
       </div>
 
-      {selectedDoc.language === 'Tamil' && (
+      {isRegional && (
         <div style={{
           padding: '0.75rem 1rem',
           background: 'var(--bg-secondary)',
@@ -63,14 +65,14 @@ export function OcrScannerViewport({
           gap: '0.5rem'
         }}>
           <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
-            Bilingual Tamil / English Alignment:
+            Bilingual Malayalam / English Alignment:
           </span>
           <button
             className="btn-emerald"
             style={{ padding: '0.35rem 0.75rem', fontSize: '0.72rem' }}
-            onClick={() => setIsTamilView(!isTamilView)}
+            onClick={() => setIsMalayalamView(!isMalayalamView)}
           >
-            <Sparkles size={12} /> {isTamilView ? 'Show Tamil Script' : 'Translate to English'}
+            <Sparkles size={12} /> {isMalayalamView ? 'Show Malayalam Script' : 'Translate to English'}
           </button>
         </div>
       )}

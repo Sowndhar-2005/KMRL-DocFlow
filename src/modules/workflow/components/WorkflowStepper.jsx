@@ -6,7 +6,7 @@ export function WorkflowStepper({ selectedDoc }) {
 
   const STEPS = [
     { step: 1, label: 'Ingested & Scanned', desc: 'Multer Upload' },
-    { step: 2, label: 'Bilingual OCR', desc: 'Tamil / English' },
+    { step: 2, label: 'Bilingual OCR', desc: 'Malayalam / English' },
     { step: 3, label: 'AI Triaged & Routed', desc: 'NLP Routing' },
     { step: 4, label: 'HoD Dept Review', desc: 'Concurrence' },
     { step: 5, label: 'Final E-Sign & Seal', desc: 'SHA-256 Stamp' }

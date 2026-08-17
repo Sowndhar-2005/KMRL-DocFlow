@@ -19,9 +19,9 @@ export class DocumentService {
   async processAndIngestDocument({ title, rawText, file }) {
     let textToProcess = rawText || '';
     let docTitle = title || 'Uploaded KMRL Document';
-    let isTamil = false;
-    let tamilOrig = null;
-    let tamilTrans = null;
+    let isMalayalam = false;
+    let malayalamOrig = null;
+    let malayalamTrans = null;
 
     if (file) {
       docTitle = file.originalname.replace(/\.[^/.]+$/, '');
@@ -30,10 +30,10 @@ export class DocumentService {
       }
     }
 
-    if (aiService.isTamilText(textToProcess)) {
-      isTamil = true;
-      tamilOrig = textToProcess;
-      tamilTrans = 'Automated English Translation: ' + textToProcess;
+    if (aiService.isMalayalamText(textToProcess)) {
+      isMalayalam = true;
+      malayalamOrig = textToProcess;
+      malayalamTrans = 'Automated English Translation: ' + textToProcess;
     }
 
     // AI Classification & Routing
@@ -50,7 +50,6 @@ export class DocumentService {
     const existingDocs = await documentRepository.getAllDocuments();
     let maxSim = 0;
     let duplicateOf = null;
-
     for (const d of existingDocs) {
       const sim = aiService.calculateCosineSimilarity(textToProcess, `${d.title} ${d.executiveSummary}`);
       if (sim > maxSim) {
@@ -63,7 +62,7 @@ export class DocumentService {
     const newDoc = {
       id: docId,
       title: docTitle,
-      type: isTamil ? 'Government Order' : priority === 'P1' ? 'Safety Directive' : 'Operational Circular',
+      type: isMalayalam ? 'Government Order' : priority === 'P1' ? 'Safety Directive' : 'Operational Circular',
       dept,
       priority,
       status: 'Under Review',
@@ -75,11 +74,13 @@ export class DocumentService {
       issuingAuth: `${dept} Directorate`,
       assignee,
       workflowStep: 3,
-      language: isTamil ? 'Tamil' : 'English',
+      language: isMalayalam ? 'Malayalam' : 'English',
       similarity: maxSim > 60 ? maxSim : 0,
       duplicateOf: maxSim > 60 ? duplicateOf : null,
-      tamilOriginal: tamilOrig,
-      tamilTranslation: tamilTrans,
+      malayalamOriginal: malayalamOrig,
+      malayalamTranslation: malayalamTrans,
+      tamilOriginal: malayalamOrig,
+      tamilTranslation: malayalamTrans,
       executiveSummary,
       actionItems,
       complianceRisk,

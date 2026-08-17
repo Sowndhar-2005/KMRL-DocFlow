@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "filename": "kmrl_backup_TEST_SNAPSHOT_2026-08-17T05-22-56-331Z.json",
+    "filepath": "D:\\Project\\KMRL DocFlow\\server\\data\\backups\\kmrl_backup_TEST_SNAPSHOT_2026-08-17T05-22-56-331Z.json",
+    "createdAt": "2026-08-17T05:22:56.332Z",
+    "label": "TEST_SNAPSHOT",
+    "checksum": "9c47533a271e08779cd48a7d1431e71633a045ba9a3501220f4d0a1cc5711356",
+    "documentsCount": 1,
+    "sizeBytes": 718
+  },
+  "data": {
+    "documents": [
+      {
+        "id": "DOC-2025-2001",
+        "title": "Snapshot Backup Test Document",
+        "type": "Safety Directive",
+        "dept": "Safety & Operations",
+        "priority": "P1",
+        "status": "Under Review",
+        "date": "2025-02-14",
+        "deadline": "2025-02-21",
+        "daysLeft": 7,
+        "amount": "₹5,00,000",
+        "sanctionRef": "KMRL/SNAP/01",
+        "issuingAuth": "Safety Cell",
+        "assignee": "Shri. Ramesh Menon",
+        "workflowStep": 1,
+        "language": "English",
+        "executiveSummary": "Snapshot testing payload.",
+        "complianceRisk": "Medium",
+        "createdAt": "2026-08-17T05:22:56.314Z"
+      }
+    ],
+    "departments": [],
+    "auditLogs": [],
+    "slaEscalations": []
+  }
+}

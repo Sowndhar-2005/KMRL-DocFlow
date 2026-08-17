@@ -17,7 +17,7 @@ export function SearchBar({ searchQuery, setSearchQuery, onSelectQuery }) {
         <input
           type="text"
           className="search-input-field"
-          placeholder="Ask KMRL AI or search across 10,000+ indexed documents, drawings, Tamil GOs & CMRS circulars..."
+          placeholder="Ask KMRL AI or search across 10,000+ indexed documents, drawings, Malayalam GOs & CMRS circulars..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />

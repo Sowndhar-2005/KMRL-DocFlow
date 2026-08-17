@@ -7,15 +7,15 @@ import { ExtractedEntitiesForm } from './components/ExtractedEntitiesForm';
 export function OcrIngestionPage({
   selectedDoc,
   isScanning,
-  isTamilView,
-  setIsTamilView,
+  isMalayalamView,
+  setIsMalayalamView,
   onFileUpload,
   onTextUpload,
   uploadTitle,
   setUploadTitle,
   uploadText,
   setUploadText,
-  onSimulateTamil,
+  onSimulateMalayalam,
   onProceedToSummary
 }) {
   return (
@@ -40,14 +40,14 @@ export function OcrIngestionPage({
           setUploadTitle={setUploadTitle}
           uploadText={uploadText}
           setUploadText={setUploadText}
-          onSimulateTamil={onSimulateTamil}
+          onSimulateMalayalam={onSimulateMalayalam}
         />
 
         <OcrScannerViewport
           selectedDoc={selectedDoc}
           isScanning={isScanning}
-          isTamilView={isTamilView}
-          setIsTamilView={setIsTamilView}
+          isMalayalamView={isMalayalamView}
+          setIsMalayalamView={setIsMalayalamView}
         />
       </div>
 

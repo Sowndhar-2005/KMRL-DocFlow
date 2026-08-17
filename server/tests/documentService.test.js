@@ -20,11 +20,11 @@ test('AI Intelligence & Triage Engine', async (t) => {
     assert.ok(result.assignee.includes('Anjali Nair'));
   });
 
-  await t.test('detects Tamil script accurately', () => {
-    const tamil = 'கொச்சி மெட்ரோ ரயில் திட்டம் - கட்டம் 2 பிங்க் லைன்';
+  await t.test('detects Malayalam script accurately', () => {
+    const malayalam = 'കൊച്ചി മെട്രോ റെയിൽ പദ്ധതി - ഘട്ടം 2 പിങ്ക് ലൈൻ';
     const english = 'Kochi Metro Rail Project - Phase 2 Pink Line';
-    assert.strictEqual(aiService.isTamilText(tamil), true);
-    assert.strictEqual(aiService.isTamilText(english), false);
+    assert.strictEqual(aiService.isMalayalamText(malayalam), true);
+    assert.strictEqual(aiService.isMalayalamText(english), false);
   });
 
   await t.test('extracts entities: Sanction Reference and Amounts', () => {
